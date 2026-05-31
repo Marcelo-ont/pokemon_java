@@ -1,15 +1,38 @@
+# Java
 *.class
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+replay_pid*
 
-# Java build output
+# Maven / build output
+target/
+build/
 out/
 bin/
-build/
-target/
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
 
-# IDE files
+# Logs
+*.log
+logs/
+
+# IDEs
 .idea/
+*.iws
 *.iml
+*.ipr
 .vscode/
+.classpath
+.project
+.settings/
 
-# OS files
+# macOS / system files
 .DS_Store
+Thumbs.db
+
+# Local environment
+.env
+.env.*
